@@ -1,0 +1,12 @@
+server:
+  port: 8888
+spring:
+  active: native
+cloud:
+  config:
+    server:
+      native:
+        search-locations: classpath:config/
+# 컨피그 서버가 resources 안의 폴더를 사용하도록 설정 - native 프로파일을 사용하는 설정 , 가본 파일 시스템을 사용, 설정이 classpath의 /config위치에 있음을 나타냈다.
+
+# http://localhost:8888/application/default 요청시 얻을수 있음

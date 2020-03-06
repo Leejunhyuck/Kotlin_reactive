@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: "gateway"
+
+
+    # http://localhost:8080/greetings/application/health 액추에이터 상태 확인

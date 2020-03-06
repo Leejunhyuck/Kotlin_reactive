@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: "greetings"
+eureka:
+  client:
+    healthcheck:
+      enabled: true
+#spring boot actuator 표시기를 제공한다. 상태 확인 가능 url -> http://localhost:8080/actuator/health (민감한 정보라서 보호하거나, 기본경로를 변경해야한다.)
+server:
+  port: 0

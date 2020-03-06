@@ -1,0 +1,9 @@
+server:
+  port: 8761
+spring:
+  application:
+    name: "discovery-server"
+
+#유레카 서버의 기본 포트 8761
+
+#실행 순서 컨피그 서버 , 탐색서버를 먼저 실행하고 다음 마이크로 서비스 실행

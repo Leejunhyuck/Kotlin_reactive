@@ -1,0 +1,4 @@
+microservice:
+  example:
+    greetings: "hello"
+#컨피그 서버를 시작 할떄, mvnw clean을 수행해야 할수있다.

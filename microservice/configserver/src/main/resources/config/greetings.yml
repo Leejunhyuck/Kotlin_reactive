@@ -1,0 +1,6 @@
+microservice:
+  example:
+    greetings: "hello for the greetings application"
+
+#"{cipher}암호화된 메시지"
+

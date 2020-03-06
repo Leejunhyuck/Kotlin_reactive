@@ -1,0 +1,11 @@
+encrypt.key: "this_is_a_secret"
+spring:
+  cloud:
+    config:
+      server:
+        encrypt:
+          enabled: false
+
+# 데이터 암호화하려면 JAVA_HOME(JRE 설치경로)에 lib폴더 아래의 JCE를 설치해야 할 수도 있다.
+# curl http://localhost:8888/encrypt -d "secret message"
+# 응답 -> 암호화된 메시지
